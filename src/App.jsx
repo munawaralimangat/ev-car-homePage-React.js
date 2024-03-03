@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Background from './components/Background/Background';
+import Navbar from './components/Navbar/Navbar'
 
 const App = () => {
   let heroData = [

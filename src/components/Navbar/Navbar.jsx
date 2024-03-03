@@ -2,10 +2,16 @@ import './Navbar.css'
 
 const Navbar = ()=>{
     return(
-        <div>
-
+        <div className='Nav'>
+            <div className="nav logo">EV-ol</div>
+            <ul className="nav-menu">
+                <li>Home</li>
+                <li>Explore</li>
+                <li>About</li>
+                <li className='Nav-contact'>Contact</li>
+            </ul>
         </div>
     )
 }
 
-export default Navbar
+export default Navbar;
