@@ -7,7 +7,7 @@ import image3 from '../../assets/image3.png';
 const Background = ({playStatus,heroCount}) => {
   if(playStatus){
     return(
-      <video className='Background' autoPlay loop muted>
+      <video className='background' autoPlay loop muted>
         <source src={video1} type='video/mp4' />
       </video>
     )
@@ -18,7 +18,6 @@ const Background = ({playStatus,heroCount}) => {
   }else if(heroCount===2){
     return <img src={image3} className='background' alt="" />
   }
-  
 }
 
 export default Background

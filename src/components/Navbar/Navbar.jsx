@@ -2,13 +2,13 @@ import './Navbar.css'
 
 const Navbar = ()=>{
     return(
-        <div className='Nav'>
-            <div className="nav logo">EV-ol</div>
+        <div className='nav'>
+            <div className="nav-logo">EV-ol</div>
             <ul className="nav-menu">
                 <li>Home</li>
                 <li>Explore</li>
                 <li>About</li>
-                <li className='Nav-contact'>Contact</li>
+                <li className='nav-contact'>Contact</li>
             </ul>
         </div>
     )
